@@ -1,0 +1,16 @@
+* [Geolocation API Specification](https://w3c.github.io/geolocation-api/)
+  * Only works on secure (https) servers
+  * [Use Location API on Windows](https://bugs.chromium.org/p/chromium/issues/detail?id=968883)
+  * [Windows.Devices.Geolocation Namespace](https://docs.microsoft.com/en-us/uwp/api/Windows.Devices.Geolocation)
+
+* [Geolocation Sensor](https://w3c.github.io/geolocation-sensor/)
+
+* [Geofencing API](https://w3c.github.io/geofencing-api/) (Deprecated)
+
+## Sample App
+
+```bash
+$ npx create-react-app --typescript gps-app
+```
+
+各携帯キャリア独自の規格であったためキャリアごとの仕様に合わせて開発する必要がありました。
